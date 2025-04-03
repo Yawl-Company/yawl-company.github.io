@@ -108,67 +108,22 @@ import TheFooter from '../components/TheFooter.vue'
       <div class="container-custom">
         <div class="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 class="text-3xl font-bold text-secondary dark:text-white mb-4">
-            Our Team
+            Meet the CEO
           </h2>
           <p class="text-gray-600 dark:text-gray-300">
-            Meet the talented individuals who make Yawl a leader in software development.
+            The visionary behind Yawl's innovative approach to software development.
           </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <!-- Team Member 1 -->
-          <div class="bg-white dark:bg-secondary rounded-xl shadow-lg overflow-hidden animate-slide-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" 
-                alt="Team Member" 
-                class="w-full h-64 object-cover object-center" />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary dark:text-white">Alex Johnson</h3>
-              <p class="text-primary dark:text-primary-light mb-2">CEO & Co-Founder</p>
-              <p class="text-gray-600 dark:text-gray-300 text-sm">
-                20+ years of experience in software development and team leadership.
-              </p>
-            </div>
-          </div>
-          
-          <!-- Team Member 2 -->
-          <div class="bg-white dark:bg-secondary rounded-xl shadow-lg overflow-hidden animate-slide-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style="animation-delay: 100ms;">
-            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" 
-                alt="Team Member" 
-                class="w-full h-64 object-cover object-center" />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary dark:text-white">Sarah Chen</h3>
-              <p class="text-primary dark:text-primary-light mb-2">CTO & Co-Founder</p>
-              <p class="text-gray-600 dark:text-gray-300 text-sm">
-                Expert in mobile development with a focus on security and performance.
-              </p>
-            </div>
-          </div>
-          
-          <!-- Team Member 3 -->
-          <div class="bg-white dark:bg-secondary rounded-xl shadow-lg overflow-hidden animate-slide-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style="animation-delay: 200ms;">
-            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" 
-                alt="Team Member" 
-                class="w-full h-64 object-cover object-center" />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary dark:text-white">Michael Rodriguez</h3>
-              <p class="text-primary dark:text-primary-light mb-2">Lead Android Developer</p>
-              <p class="text-gray-600 dark:text-gray-300 text-sm">
-                Passionate about creating intuitive and responsive Android applications.
-              </p>
-            </div>
-          </div>
-          
-          <!-- Team Member 4 -->
-          <div class="bg-white dark:bg-secondary rounded-xl shadow-lg overflow-hidden animate-slide-up transition-all duration-300 hover:shadow-xl hover:-translate-y-1" style="animation-delay: 300ms;">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" 
-                alt="Team Member" 
-                class="w-full h-64 object-cover object-center" />
-            <div class="p-6">
-              <h3 class="text-xl font-semibold text-secondary dark:text-white">Emily Kim</h3>
-              <p class="text-primary dark:text-primary-light mb-2">Lead iOS Developer</p>
-              <p class="text-gray-600 dark:text-gray-300 text-sm">
-                Specializes in creating beautiful and performant iOS applications.
-              </p>
+        <div class="max-w-md mx-auto">
+          <!-- CEO Profile -->
+          <div class="bg-white dark:bg-secondary rounded-xl shadow-lg overflow-hidden animate-slide-up transition-all duration-300 hover:shadow-xl">
+            <img src="/images/ceo.jpg" 
+                alt="CEO" 
+                class="w-full h-96 object-cover object-center" />
+            <div class="p-8">
+              <h3 class="text-2xl font-semibold text-secondary dark:text-white">Bob Nicholson</h3>
+              <p class="text-primary dark:text-primary-light text-lg mb-4">CEO & Founder</p>
             </div>
           </div>
         </div>
