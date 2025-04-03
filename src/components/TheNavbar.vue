@@ -24,7 +24,6 @@ const toggleMenu = () => {
           <router-link 
             v-for="item in [
               { name: 'Home', path: '/' },
-              { name: 'Services', path: '/services' },
               { name: 'About', path: '/about' },
               { name: 'Contact', path: '/contact' }
             ]" 
@@ -77,7 +76,6 @@ const toggleMenu = () => {
         <router-link 
           v-for="item in [
             { name: 'Home', path: '/' },
-            { name: 'Services', path: '/services' },
             { name: 'About', path: '/about' },
             { name: 'Contact', path: '/contact' }
           ]" 

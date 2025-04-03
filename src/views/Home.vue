@@ -19,10 +19,7 @@ import TheFooter from '../components/TheFooter.vue'
               We specialize in open source and custom development for Android, iOS, and multiplatform solutions.
             </p>
             <div class="flex flex-wrap gap-4">
-              <router-link to="/services" class="btn-primary">
-                Our Services
-              </router-link>
-              <router-link to="/contact" class="btn-outline">
+              <router-link to="/contact" class="btn-primary">
                 Get in Touch
               </router-link>
             </div>
@@ -37,68 +34,6 @@ import TheFooter from '../components/TheFooter.vue'
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="fill-gray-100 dark:fill-secondary/80 transition-colors duration-300">
           <path d="M0,224L60,213.3C120,203,240,181,360,186.7C480,192,600,224,720,229.3C840,235,960,213,1080,186.7C1200,160,1320,128,1380,112L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
         </svg>
-      </div>
-    </section>
-    
-    <!-- Services Section -->
-    <section class="bg-gray-100 dark:bg-secondary/80 py-20 transition-colors duration-300">
-      <div class="container-custom">
-        <div class="text-center mb-16 animate-fade-in">
-          <h2 class="text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-4">Our Expertise</h2>
-          <p class="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            We deliver high-quality software solutions that meet your needs and exceed your expectations.
-          </p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Mobile App Development -->
-          <div class="bg-white dark:bg-secondary shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-slide-up">
-            <div class="text-primary dark:text-primary-light mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold text-secondary dark:text-white mb-2">Mobile Development</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              Native Android and iOS applications with a focus on performance and user experience.
-            </p>
-            <router-link to="/services" class="text-primary dark:text-primary-light font-medium hover:underline">
-              Learn More →
-            </router-link>
-          </div>
-          
-          <!-- Multiplatform Development -->
-          <div class="bg-white dark:bg-secondary shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-slide-up" style="animation-delay: 100ms;">
-            <div class="text-primary dark:text-primary-light mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold text-secondary dark:text-white mb-2">Multiplatform Solutions</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              Cross-platform applications that work seamlessly across multiple devices and operating systems.
-            </p>
-            <router-link to="/services" class="text-primary dark:text-primary-light font-medium hover:underline">
-              Learn More →
-            </router-link>
-          </div>
-          
-          <!-- Open Source -->
-          <div class="bg-white dark:bg-secondary shadow-lg rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-slide-up" style="animation-delay: 200ms;">
-            <div class="text-primary dark:text-primary-light mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-semibold text-secondary dark:text-white mb-2">Open Source Projects</h3>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">
-              Contributing to and creating open source solutions that benefit the developer community.
-            </p>
-            <router-link to="/services" class="text-primary dark:text-primary-light font-medium hover:underline">
-              Learn More →
-            </router-link>
-          </div>
-        </div>
       </div>
     </section>
     
