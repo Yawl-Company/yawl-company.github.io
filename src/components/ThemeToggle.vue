@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useThemeStore } from '../store/theme'
+import { useThemeStore } from '@/store/theme'
 import { onMounted } from 'vue'
 
 const themeStore = useThemeStore()

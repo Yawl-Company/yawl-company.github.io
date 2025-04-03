@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import TheNavbar from '../components/TheNavbar.vue'
-import TheFooter from '../components/TheFooter.vue'
+import TheNavbar from '@/components/TheNavbar.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 const name = ref('')
 const email = ref('')
