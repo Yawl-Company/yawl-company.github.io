@@ -18,11 +18,6 @@ import TheFooter from '@/components/TheFooter.vue'
             <p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
               We specialize in open source and custom development for Android, iOS, and multiplatform solutions.
             </p>
-            <div class="flex flex-wrap gap-4">
-              <router-link to="/contact" class="btn-primary">
-                Get in Touch
-              </router-link>
-            </div>
           </div>
           <div class="relative">
             <img src="/favicon.svg" alt="Yawl Logo" class="relative z-10 w-full max-w-lg mx-auto" />
