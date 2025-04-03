@@ -20,16 +20,6 @@ onMounted(() => {
 <style>
 @import './assets/tailwind.css';
 
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.3s ease;
-}
-
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-}
-
 html {
   scroll-behavior: smooth;
 }
