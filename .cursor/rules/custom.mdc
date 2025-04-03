@@ -13,6 +13,7 @@ Maximum UI component size — 100 lines
 Maximum file length — 200 lines
 Maximum function length — 10 lines
 Follow SOLID and DRY principles
+Use a design system and reference base components and color palette
 
 2. Project Structure
 
