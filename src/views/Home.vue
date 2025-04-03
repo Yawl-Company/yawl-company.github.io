@@ -27,9 +27,7 @@ import TheFooter from '../components/TheFooter.vue'
               </router-link>
             </div>
           </div>
-          <div class="relative animate-slide-up">
-            <div class="absolute -top-16 -left-16 w-32 h-32 bg-primary/20 rounded-full filter blur-xl animate-pulse"></div>
-            <div class="absolute -bottom-8 -right-8 w-48 h-48 bg-primary-light/20 rounded-full filter blur-xl animate-pulse"></div>
+          <div class="relative">
             <img src="/favicon.svg" alt="Yawl Logo" class="relative z-10 w-full max-w-lg mx-auto" />
           </div>
         </div>
