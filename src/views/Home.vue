@@ -236,8 +236,8 @@ import TheFooter from '../components/TheFooter.vue'
             </router-link>
           </div>
           <div class="animate-slide-in">
-            <img src="https://images.unsplash.com/photo-1501979376754-f46af840d8e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" 
-                alt="Boston" 
+            <img src="/images/office.jpg" 
+                alt="Boston Office" 
                 class="rounded-xl shadow-lg w-full h-auto object-cover" />
           </div>
         </div>
