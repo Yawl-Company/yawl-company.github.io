@@ -20,7 +20,13 @@ import TheFooter from '@/components/TheFooter.vue'
             </p>
           </div>
           <div class="relative">
-            <img src="/favicon.svg" alt="Yawl Logo" class="relative z-10 w-full max-w-lg mx-auto" />
+            <div class="relative z-10 w-full max-w-lg mx-auto dark:animate-float">
+              <img 
+                src="/favicon.svg" 
+                alt="Yawl Logo" 
+                class="w-full h-auto" 
+              />
+            </div>
           </div>
         </div>
       </div>
